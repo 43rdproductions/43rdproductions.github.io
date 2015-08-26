@@ -1,132 +1,165 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="">
-	<meta name="author" content="">
-	<link rel="icon" href="assets/img/favicon-@2x.png">
-	<title>InternHacks</title>
-	<link href="assets/css/font-awesome.min.css" rel="stylesheet">
-	<link href="assets/css/hover-min.css" rel="stylesheet" media="all">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
-	<link href="assets/css/style.css" rel="stylesheet">
-	<link href="assets/css/style-mobile.css" rel="stylesheet">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>Parallax Template - Materialize</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
-	<div class="page-wrapper">
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#" class="brand-logo">Logo</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#">Navbar Link</a></li>
+      </ul>
 
-	<div class="internhacks-wrapper">
-		<div class="row">
-        <div class="col s12">
-		<img class="name"><h2>Brendon Geils</h2>
-		</div>
-		</div>
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="#">Navbar Link</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
 
-		<div class="row" id="event-info">
-	        <div class="col s12">
-	        	<a href="list.html"><h3>Impossible List</h3></a>
-				<h6>Live life to the fullest.</h6>
-			</div>
-		</div>
-	</div>
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header center teal-text text-lighten-2">Parallax Template</h1>
+        <div class="row center">
+          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        </div>
+        <div class="row center">
+          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
+        </div>
+        <br><br>
+
+      </div>
+    </div>
+    <div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 1"></div>
+  </div>
 
 
-<div class="card row white event z-depth-4d">
-	<div class="faq-wrapper">
-		<h1>{ FAQ }</h1>
+  <div class="container">
+    <div class="section">
 
-		<div class="col s6 question-item what-is-internhacks">
-			<h4 class="question">What is InternHacks?</h4>
-			<p>InternHacks is a different kind of hackathon.
-			Focused on portfolio website development, no teams, no conflict-of-interest, no worries.
-			Join us for a day-long workshop filled hackathon founded by interns, for interns. </p>
-		</div>
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
+            <h5 class="center">Speeds up development</h5>
 
-		<div class="col s6 question-item">
-			<h4 class="question">Where/When is InternHacks? </h4>
-			<p> InternHacks will take place on Saturday, July 25th, from 9&nbsp;AM to 6&nbsp;PM at the beautiful General Assembly office at 225 Bush Street 5th Floor, San Francisco.</p>
-		</div>
+            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+          </div>
+        </div>
 
-		<div style="clear:both"></div>
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">group</i></h2>
+            <h5 class="center">User Experience Focused</h5>
 
-		<div class="col s6 question-item">
-			<h4 class="question">What is a portfolio website?</h4>
-			<p>A portfolio website is a lot like a resume, but showcased as a website. <br>It's a great way to display your technical skills to recruiters.</p>
-		</div>
+            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+          </div>
+        </div>
 
-		<div class="col s6 question-item">
-			<h4 class="question">I don't know HTML/CSS, can I still attend?</h4>
-			<p>Of course! Stop by the Intro to HTML/CSS and Weebly workshop to get started on your first porfolio website. </p>
-		</div>
-	</div>
-</div>
-<div class="parallax-container">
-	<div class="parallax">
-		<img id="ga-office-img" src="assets/img/ga-office.jpeg">
-	</div>
-</div>
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
+            <h5 class="center">Easy to work with</h5>
 
-<div class="row schedule">
-<!--  populated with jQuery in schedule.js
---></div>
-<div class="parallax-container">
-	<div class="parallax">
-		<img id="ga-office-img" src="assets/img/ga-office-2.jpeg">
-	</div>
-</div>
+            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+          </div>
+        </div>
+      </div>
 
-<div class="card sponsors">
-<h2>{ Sponsors }</h2>
-<h4>Meet these awesome companies at <b>InternHacks!</b></h4>
-<div class="row sponsors valign-wrapper">
-	<img class="col s4 logo valign" src="assets/img/ga-logo.png">
-	<img class="col s4 logo valign" id="kik-logo" src="assets/img/kik-logo.png">
-	<img class="col s4 logo valign" id="microsoft-logo" src="assets/img/microsoft-logo.png">
-	<img class="col s4 logo valign"  src="assets/img/weebly-logo.gif">
-	<img class="col s4 logo valign" src="assets/img/namecheap-logo.png">
-</div>
-</div>
+    </div>
+  </div>
 
-<footer class="page-footer">
-	<div class="container footer-container">
-		<div class="row">
-			<div id="internhacks-footer-logo" class="col s3 offset-s2">
-				<img src="assets/img/favicon-@2x.png">
-			</div>
-			<div class="col s3">
-				<h5 class="white-text">Contact</h5>
-				<p class="grey-text text-lighten-4">
-					Head Organizer:<br/>
-					<a href="mailto:kelseyhrubes@gmail.com?subject=InternHacks!">kelseyhrubes@gmail.com</a>
-				</p>
-			</div>
-			<div id="footer-links-container"class="col s3 offset-s3">
-				<h5 class="white-text">Links</h5>
-				<ul>
-					<li><a href="https://www.facebook.com/events/501665919987158/"><i class="fa fa-facebook fa-2x"></i></a></li>
-					<li><a href=""><i class="fa fa-github fa-2x"></i></a></li>
-				</ul>
-			</div>
-		</div>
-	</div>
-</footer>
-</div>
 
-</body>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
-<script src="assets/js/custom.js"></script>
-<script type="text/javascript">
-$(document).ready(function(){
-	if(!isMobile()){
-		$('.parallax').parallax();
-	}else{
-		$('.parallax-container').removeClass('parallax-container');
-		$('.parallax').removeClass('parallax');
-	}
-});
-</script>
-</body>
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4>Contact Us</h4>
+          <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
+  </div>
+
+  <footer class="page-footer teal">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Company Bio</h5>
+          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+
+
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Settings</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Link 1</a></li>
+            <li><a class="white-text" href="#!">Link 2</a></li>
+            <li><a class="white-text" href="#!">Link 3</a></li>
+            <li><a class="white-text" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Connect</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Link 1</a></li>
+            <li><a class="white-text" href="#!">Link 2</a></li>
+            <li><a class="white-text" href="#!">Link 3</a></li>
+            <li><a class="white-text" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="../../dist/js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
 </html>
