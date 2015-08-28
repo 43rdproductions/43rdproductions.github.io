@@ -5270,7 +5270,7 @@ nav {
       font-size: 2.7rem;
       height: 56px;
       line-height: 56px; }
-  nav .brand-logo {
+  nav .brand-logo-container {
     position: absolute;
     color: #fff;
     display: inline-block;
