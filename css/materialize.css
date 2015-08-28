@@ -757,10 +757,10 @@
   background-color: #4db6ac !important; }
 
 .teal-text.text-lighten-2 {
-  color: #4db6ac !important; }
+  color: #000000 !important; }
 
 .teal.lighten-1 {
-  background-color: #26a69a !important; }
+  background-color: #A71414 !important; }
 
 .teal-text.text-lighten-1 {
   color: #26a69a !important; }
@@ -4882,7 +4882,7 @@ span.badge {
 .mdi-notification-phone-paused:before {
   content: "\e8c7"; }
 
-.mdi-notification-play-download:before {
+.mdi-notification-play--bu:before {
   content: "\e8c8"; }
 
 .mdi-notification-play-install:before {
