@@ -1974,7 +1974,7 @@ ul {
   list-style-type: none; }
 
 a {
-  color: #039be5;
+  color: #000;
   text-decoration: none;
   -webkit-tap-highlight-color: transparent; }
 
@@ -2091,6 +2091,11 @@ img.responsive-img, video.responsive-video {
   position: relative;
   overflow: hidden;
   height: 500px; }
+
+.parallax-container2 {
+  position: relative;
+  overflow: hidden;
+  height: 200px; }
 
 .parallax {
   position: absolute;
