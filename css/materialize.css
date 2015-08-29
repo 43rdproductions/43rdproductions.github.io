@@ -757,7 +757,10 @@
   background-color: #4db6ac !important; }
 
 .teal-text.text-lighten-2 {
-  color: #FFFFFF !important; }
+
+  color: #A71414 !important; 
+<!-- Write your comments here -->
+}
 
 .teal.lighten-1 {
   background-color: #A71414 !important; }
@@ -2099,7 +2102,7 @@ img.responsive-img, video.responsive-video {
 
 .parallax {
   position: absolute;
-  top: 0;
+  top: ;
   left: 0;
   right: 0;
   bottom: 0;
