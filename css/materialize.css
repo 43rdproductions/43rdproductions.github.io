@@ -2125,6 +2125,7 @@ img.responsive-img, video.responsive-video {
   /* define mobile specific styles come here */
   .parallax { 
     width: 400px; 
+    opacity: 0.6;
   }
 }
 .pin-top, .pin-bottom {
