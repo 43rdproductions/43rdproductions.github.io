@@ -2108,8 +2108,9 @@ img.responsive-img, video.responsive-video {
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: -1; 
-  opacity: 0.6;}
+  z-index: -1;
+  opacity: 0.6; 
+  }
   .parallax img {
    
     position: absolute;
@@ -5039,14 +5040,16 @@ span.badge {
 
 @media only screen and (min-width : 601px) {
   .container {
-    width: 100%; 
-    text-align: left;
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 90%; 
     } }
 
 @media only screen and (min-width : 993px) {
   .container {
-    width: 100%; 
-    text-align: left;
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 90%; 
     } }
 
 .container .row {
