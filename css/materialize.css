@@ -2121,13 +2121,6 @@ img.responsive-img, video.responsive-video {
     transform: translateX(-50%); 
   }
 
-@media only screen and (max-device-width: 480px) {
-  /* define mobile specific styles come here */
-  .parallax { 
-    width: 400px; 
-    opacity: 0.6;
-  }
-}
 .pin-top, .pin-bottom {
   position: relative; }
 
@@ -5045,11 +5038,15 @@ span.badge {
 
 @media only screen and (min-width : 601px) {
   .container {
-    width: 85%; } }
+    width: 85%; 
+    text-align: left;
+    } }
 
 @media only screen and (min-width : 993px) {
   .container {
-    width: 70%; } }
+    width: 70%; 
+    text-align: left;
+    } }
 
 .container .row {
   margin-left: -0.75rem;
