@@ -2088,7 +2088,10 @@ img.responsive-img, video.responsive-video {
     .pagination li.pages {
       width: 80%;
       overflow: hidden;
-      white-space: nowrap; } }
+      white-space: nowrap; } 
+      .parallax-container{
+        opacity: 0.95;
+        }}
 
 .parallax-container {
   position: relative;
@@ -2109,6 +2112,7 @@ img.responsive-img, video.responsive-video {
   right: 0;
   bottom: 0;
   z-index: -1;
+  opacity: 0.6;
   }
   .parallax img {
    
@@ -5040,15 +5044,11 @@ span.badge {
 @media only screen and (min-width : 601px) {
   .container {
     margin: 0 auto;
-    max-width: 1280px;
-    width: 90%; 
     } }
 
 @media only screen and (min-width : 993px) {
   .container {
     margin: 0 auto;
-    max-width: 1280px;
-    width: 90%; 
     } }
 
 .container .row {
