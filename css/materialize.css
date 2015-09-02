@@ -2109,7 +2109,6 @@ img.responsive-img, video.responsive-video {
   right: 0;
   bottom: 0;
   z-index: -1;
-  opacity: 0.6; 
   }
   .parallax img {
    
