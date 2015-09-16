@@ -26,7 +26,14 @@ p {
   height: auto;
   color: #A71414 ;
   width: 100%;
-
+}
+.parallax-container2 {
+  position: relative;
+  min-height: 400px;
+  line-height: 0;
+  height: auto;
+  color: #FFFFFF ;
+  width: 100%;
 }
   .parallax-container .section {
     width: 100%;
