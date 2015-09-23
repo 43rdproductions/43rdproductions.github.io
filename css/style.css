@@ -68,17 +68,37 @@ footer.page-footer {
   margin: 0;
 }
 
-#package_pic{
+#package_pic_r{
   float: left;
   height: 40%;
   width: 40%;
+  clear: both;
+
+  padding-bottom:5%;
 }
-#package_h1{
+#package_h1_r{
   float: right;
   padding-right: 15%;
 }
-#package_text{
+#package_text_r{
   clear: right;
   padding-right: 10%;
-  padding-left: 47%;
+  padding-left: 50%;
+}
+#package_pic_l{
+  float: right;
+  height: 40%;
+  width: 40%;
+  margin-right: 10%;
+  clear:both;
+
+}
+#package_h1_l{
+  float: left;
+  padding-right: 15%;
+}
+#package_text_l{
+  clear: left;
+
+  padding-right: 55%;
 }
