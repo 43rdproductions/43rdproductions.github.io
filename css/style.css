@@ -67,3 +67,18 @@ p {
 footer.page-footer {
   margin: 0;
 }
+
+#package_pic{
+  float: left;
+  height: 40%;
+  width: 40%;
+}
+#package_h1{
+  float: right;
+  padding-right: 15%;
+}
+#package_text{
+  clear: right;
+  padding-right: 10%;
+  padding-left: 47%;
+}
